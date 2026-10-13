@@ -89,3 +89,7 @@ var/
 venv.bak/
 venv/
 wheels/
+# Added for docs hygiene
+.omc/
+node_modules/
+site/
