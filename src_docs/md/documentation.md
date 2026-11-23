@@ -8,7 +8,7 @@ This site is generated from Markdown files in the repository and served by GitHu
 | --- | --- |
 | `src_docs/md/*.md` | The pages you are reading |
 | `src_docs/mkdocs.yml` | Site name, URL, theme, Markdown extensions and navigation |
-| `src_docs/build.sh` | Runs ProperDocs with the MaterialX theme |
+| `src_docs/build.sh` | Runs ProperDocs with the fly-january theme and `chrome: none` |
 | `docs/` | The generated HTML site |
 | GitHub Pages | Serves `docs/` from the `main` branch |
 | `.github/workflows/docs.yml` | Rebuilds and commits `docs/` after changes |
@@ -29,11 +29,13 @@ This site is generated from Markdown files in the repository and served by GitHu
 
     or, equivalently, `src_docs/build.sh`.
 
-2. The script runs `properdocs build --strict` with these pinned packages:
+2. The script runs `properdocs build --strict` on Python 3.13 with the following packages.
 
     | Package | Version |
     | --- | --- |
+    | `fly-january` | 0.1.1 |
     | `properdocs` | 1.6.7 |
+    | `mkdocs` | 1.6.1 |
     | `mkdocs-materialx` | 10.1.8 |
     | `pymdown-extensions` | 11.0.1 |
 

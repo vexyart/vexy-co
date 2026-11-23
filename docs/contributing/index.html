@@ -34,16 +34,21 @@
     
     
       
-        <title>Contributing - vexy-co</title>
+        <title>Contributing - LLM tools</title>
       
     
     
+  
       <link rel="stylesheet" href="../assets/stylesheets/main.314bbef5.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.a45159b5.min.css">
       
     
+  <link rel="stylesheet" data-fly-photoswipe href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.css"
+      integrity="sha384-IfxC36XL/toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei+Zx/1oA/0l8ysE" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/fly/fly.css?v=24c03d88bb">
+
     
 
     
@@ -67,6 +72,19 @@
 
     
     
+  
+  <script>try{if(sessionStorage.getItem("fly-l2")==="in"){document.documentElement.dataset.flyL2="in";sessionStorage.removeItem("fly-l2")}}catch(e){}</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0&icon_names=arrow_back,arrow_forward,dark_mode,light_mode&display=block">
+  <script>try{document.fonts.load('20px "Material Symbols Outlined"',"arrow_backarrow_forwarddark_modelight_mode").then(function(f){if(f.length)document.documentElement.classList.add("fly-msym")})}catch(e){}</script>
+  <link rel="preconnect" href="https://use.typekit.net" crossorigin>
+  <link rel="preconnect" href="https://p.typekit.net" crossorigin>
+  <link rel="stylesheet" href="https://use.typekit.net/cmv5add.css" data-fly-font>
+  <link rel="stylesheet" href="https://use.typekit.net/cna4jfp.css" data-fly-font>
+  <link rel="stylesheet" href="https://use.typekit.net/wck5koo.css" data-fly-font>
+
   </head>
   
   
@@ -79,7 +97,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" data-mx-topbar="glass">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo" data-mx-topbar="glass" class="fly-margin-left fly-chrome-none" data-fly-hue="indigo" data-fly-links="accent">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -100,13 +118,14 @@
     </div>
     
     
+  
       
 
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="vexy-co" class="md-header__button md-logo" aria-label="vexy-co" data-md-component="logo">
+    <a href=".." title="LLM tools" class="md-header__button md-logo" aria-label="LLM tools" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -120,7 +139,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            vexy-co
+            LLM tools
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -212,7 +231,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
-    vexyart/vexy-co
+    GitHub
   </div>
 </a>
       </div>
@@ -221,6 +240,7 @@
   
 </header>
     
+
     <div class="md-container" data-md-component="container">
       
       
@@ -242,13 +262,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="vexy-co" class="md-nav__button md-logo" aria-label="vexy-co" data-md-component="logo">
+    <a href=".." title="LLM tools" class="md-nav__button md-logo" aria-label="LLM tools" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    vexy-co
+    LLM tools
   </label>
   
     <div class="md-nav__source">
@@ -258,7 +278,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
-    vexyart/vexy-co
+    GitHub
   </div>
 </a>
     </div>
@@ -271,12 +291,13 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Home">
     
   
     Home
@@ -298,12 +319,13 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../related-projects/" class="md-nav__link">
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Related projects">
     
   
     Related projects
@@ -325,12 +347,13 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../repository/" class="md-nav__link">
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Repository contents">
     
   
     Repository contents
@@ -352,12 +375,13 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../license/" class="md-nav__link">
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Licence">
     
   
     Licence
@@ -379,12 +403,13 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../documentation/" class="md-nav__link">
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Documentation build">
     
   
     Documentation build
@@ -404,13 +429,13 @@
       
   
   
+  
     
   
   
   
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
@@ -420,7 +445,7 @@
           
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Contributing">
     
   
     Contributing
@@ -438,7 +463,7 @@
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Contributing">
     
   
     Contributing
@@ -457,12 +482,14 @@
   
   
   
+  
+    
     
   
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Contributing
     </label>
     <ul class="md-nav__list" data-md-component="toc">
       
@@ -552,12 +579,13 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../changelog/" class="md-nav__link">
         
   
   
-  <span class="md-ellipsis">
+  <span class="md-ellipsis" title="Changelog">
     
   
     Changelog
@@ -590,12 +618,14 @@
   
   
   
+  
+    
     
   
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Contributing
     </label>
     <ul class="md-nav__list" data-md-component="toc">
       
@@ -689,9 +719,9 @@
   
 
 
-<h1 id="contributing">Contributing<a class="headerlink" href="#contributing" title="Permanent link">&para;</a></h1>
+<h1 id="contributing">Contributing<a aria-label="Permanent link" class="headerlink" href="#contributing" title="Permanent link">&para;</a></h1>
 <p><code>vexy-co</code> is maintained by Adam Twardoch in the <code>vexyart</code> organisation on GitHub. Changes come in through the usual GitHub flow.</p>
-<h2 id="where-to-send-a-change">Where to send a change<a class="headerlink" href="#where-to-send-a-change" title="Permanent link">&para;</a></h2>
+<h2 id="where-to-send-a-change">Where to send a change<a aria-label="Permanent link" class="headerlink" href="#where-to-send-a-change" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -714,13 +744,13 @@
 </tr>
 </tbody>
 </table>
-<h2 id="change-a-documentation-page">Change a documentation page<a class="headerlink" href="#change-a-documentation-page" title="Permanent link">&para;</a></h2>
-<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
+<h2 id="change-a-documentation-page">Change a documentation page<a aria-label="Permanent link" class="headerlink" href="#change-a-documentation-page" title="Permanent link">&para;</a></h2>
+<h3 id="prerequisites">Prerequisites<a aria-label="Permanent link" class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
 <ul>
 <li>A fork or clone of <code>vexyart/vexy-co</code>.</li>
 <li><a href="https://docs.astral.sh/uv/">uv</a> installed.</li>
 </ul>
-<h3 id="steps">Steps<a class="headerlink" href="#steps" title="Permanent link">&para;</a></h3>
+<h3 id="steps">Steps<a aria-label="Permanent link" class="headerlink" href="#steps" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
 <p>Create a branch.</p>
@@ -741,7 +771,7 @@
 <li>Commit the change to <code>src_docs/</code>. Committing the rebuilt <code>docs/</code> is optional; the <code>Docs</code> workflow rebuilds it after the merge.</li>
 <li>Open a pull request against <code>main</code>.</li>
 </ol>
-<h2 id="writing-conventions-for-this-site">Writing conventions for this site<a class="headerlink" href="#writing-conventions-for-this-site" title="Permanent link">&para;</a></h2>
+<h2 id="writing-conventions-for-this-site">Writing conventions for this site<a aria-label="Permanent link" class="headerlink" href="#writing-conventions-for-this-site" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Each page starts with one <code># Title</code> line and has no front matter.</li>
 <li>Headings use sentence case.</li>
@@ -750,7 +780,7 @@
 <li>State only what the code, the tests or a real run confirm. When a page describes another repository, check the claim against that repository.</li>
 <li>Link to other pages with relative links (<code>related-projects.md</code>). Links outside <code>src_docs/md/</code> break the strict build; use the full GitHub URL instead.</li>
 </ul>
-<h2 id="licence-of-contributions">Licence of contributions<a class="headerlink" href="#licence-of-contributions" title="Permanent link">&para;</a></h2>
+<h2 id="licence-of-contributions">Licence of contributions<a aria-label="Permanent link" class="headerlink" href="#licence-of-contributions" title="Permanent link">&para;</a></h2>
 <p>By the terms of section 5 of the Apache License 2.0, a contribution you submit to this repository is licensed under that licence, unless you state otherwise. See <a href="../license/">Licence</a>.</p>
 
 
@@ -796,41 +826,28 @@
 </div>
       </main>
       
+  
         <footer class="md-footer">
   
     
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
-          
           <a href="../documentation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Documentation build">
-            <div class="md-footer__button md-icon">
-              
+            <div class="md-footer__button md-icon fly-arrow fly-arrow--back" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
             </div>
             <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              <div class="md-ellipsis">
-                Documentation build
-              </div>
+              <div class="md-ellipsis">Documentation build</div>
             </div>
           </a>
         
         
-          
           <a href="../changelog/" class="md-footer__link md-footer__link--next" aria-label="Next: Changelog">
             <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Changelog
-              </div>
+              <div class="md-ellipsis">Changelog</div>
             </div>
-            <div class="md-footer__button md-icon">
-              
+            <div class="md-footer__button md-icon fly-arrow fly-arrow--forward" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
             </div>
           </a>
@@ -838,22 +855,10 @@
       </nav>
     
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
   
-  
-    Made with
-    <a href="https://jaywhj.github.io/mkdocs-materialx/" target="_blank" rel="noopener">
-      MaterialX
-    </a>
-  
-</div>
-      
-    </div>
-  </div>
 </footer>
       
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
@@ -866,8 +871,12 @@
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "code": null, "features": ["navigation.sections", "navigation.top", "navigation.footer", "toc.follow", "search.highlight", "content.code.copy", "content.code.annotate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "code.collapse": "Collapse", "code.download": "Download", "code.expand": "Expand remaining # lines", "code.select": "Toggle line selection", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
+  
       <script src="../assets/javascripts/bundle.fc193f93.min.js"></script>
       
     
+  <script src="../assets/fly/fly-bridge.js?v=86c9984233"></script>
+  <script type="module" src="../assets/fly/fly.js?v=f51ac22526"></script>
+
   </body>
 </html>

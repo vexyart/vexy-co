@@ -4,7 +4,9 @@ The `vexy-co` repository on the `main` branch holds the files below. There is no
 
 | Path | Content |
 | --- | --- |
-| `README.md` | The project title and the line "Tools around Large Language Model", followed by a link to this site |
+| `README.md` | Project description, documentation link and local build command |
+| `AGENTS.md` | Documentation build and theme instructions |
+| `CHANGELOG.md` | The [changelog](changelog.md) published on this site |
 | `LICENSE` | The Apache License, Version 2.0, January 2004, unmodified, including the appendix with the `Copyright [yyyy] [name of copyright owner]` placeholder |
 | `.gitignore` | Patterns for files that should not be committed |
 | `build.sh` | Builds this documentation site; see [Documentation build](documentation.md) |

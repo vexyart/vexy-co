@@ -2,7 +2,7 @@
 
 Two Vexy repositories contain working tools for large language models. Each has its own repository, release cycle and documentation site. This page summarises what each does, so you can pick the one you need.
 
-## vexy-co-model-catalog
+## vexy-co-model-catalog {data-toc-label="Model catalog"}
 
 Repository: [vexyart/vexy-co-model-catalog](https://github.com/vexyart/vexy-co-model-catalog) · Documentation: [vexy.dev/vexy-co-model-catalog](https://vexy.dev/vexy-co-model-catalog/)
 
@@ -21,7 +21,7 @@ Because the output is sorted, two runs against an unchanged catalog produce iden
 
 The package also offers a Python API (`ModelFetcher`, `StorageManager`, `ProviderConfig`) and replaces an older single-file script, `dump_models.py`, keeping its file names.
 
-## vexy-overnight
+## vexy-overnight {data-toc-label="Assistant launcher"}
 
 Repository: [vexyart/vexy-overnight](https://github.com/vexyart/vexy-overnight) · Documentation: [vexy.dev/vexy-overnight](https://vexy.dev/vexy-overnight/) · PyPI: `vexy-overnight`
 

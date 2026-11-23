@@ -1,4 +1,4 @@
-# vexy-co
+# vexy-co {data-toc-label="Overview"}
 
 `vexy-co` is the umbrella repository for the Vexy tools that work with large language models. Its GitHub description is "Tools around Large Language Model".
 
