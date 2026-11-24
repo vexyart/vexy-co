@@ -17,7 +17,7 @@ This site is generated from Markdown files in the repository and served by GitHu
 
 ### Prerequisites
 
-- [uv](https://docs.astral.sh/uv/) on your `PATH`. The build script uses `uvx` to fetch the pinned tools; you do not install them yourself.
+- [uv](https://docs.astral.sh/uv/) on your `PATH`. The build script uses `uvx` to fetch the build tools; you do not install them yourself.
 
 ### Steps
 
@@ -33,7 +33,7 @@ This site is generated from Markdown files in the repository and served by GitHu
 
     | Package | Version |
     | --- | --- |
-    | `fly-january` | 0.2.1 |
+    | `fly-january` | 0.3.0 or later |
     | `properdocs` | 1.6.7 |
     | `mkdocs` | 1.6.1 |
     | `mkdocs-materialx` | 10.1.8 |
