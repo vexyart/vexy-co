@@ -4,6 +4,7 @@ All dates are commit dates on the `main` branch.
 
 ## Unreleased
 
+- The documentation build uses fly-january 0.4.0 or later (remote theme assets).
 - The documentation build uses fly-january 0.3.0 or later.
 - Site now uses the fly-january 0.2.1 theme (chrome: none).
 - Added this documentation site: sources in `src_docs/md/`, configuration in `src_docs/mkdocs.yml`, build script `src_docs/build.sh`, output in `docs/`, served at `https://vexy.dev/vexy-co/`.
