@@ -33,7 +33,7 @@ This site is generated from Markdown files in the repository and served by GitHu
 
     | Package | Version |
     | --- | --- |
-    | `fly-january` | 0.1.1 |
+    | `fly-january` | 0.2.1 |
     | `properdocs` | 1.6.7 |
     | `mkdocs` | 1.6.1 |
     | `mkdocs-materialx` | 10.1.8 |

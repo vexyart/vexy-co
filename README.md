@@ -5,4 +5,4 @@
 Tools around Large Language Model
 
 Run `./build.sh docs` to rebuild `docs/` in strict mode. The site uses the
-fly-january 0.1.1 theme with `chrome: none`.
+fly-january 0.2.1 theme with `chrome: none`.

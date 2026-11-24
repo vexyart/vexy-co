@@ -4,7 +4,7 @@ All dates are commit dates on the `main` branch.
 
 ## Unreleased
 
-- Site now uses the fly-january 0.1.1 theme (chrome: none).
+- Site now uses the fly-january 0.2.1 theme (chrome: none).
 - Added this documentation site: sources in `src_docs/md/`, configuration in `src_docs/mkdocs.yml`, build script `src_docs/build.sh`, output in `docs/`, served at `https://vexy.dev/vexy-co/`.
 - Added the root `build.sh`; `./build.sh docs` builds the site.
 - Added the `Docs` workflow (`.github/workflows/docs.yml`), which rebuilds `docs/` on pushes to `main` that change `src_docs/`.
